@@ -1,70 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Paula HTML.</title>
+    <title>Blog de Paula HTML Y Css.</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+<!-- Montserrat y Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
-<!--Header es una etiqueta para agrupar imágenes o links, se pueden crear varias, 
-Siempre y cuando:
-No se coloque una etiqueta de header dentro de otra etiqueta de header
-No se puede colocar una etiqueta header dentro de una etiqueta de footer-->
+        <h1 id="Titulo">Blog de Paula Html Y Css. </h1>
+    </header>
 
-        <h1 id="Titulo">Blog de Paula HTML. </h1>
-        <!--Id=identificador, único para interactuar con ellos o dar un estilo
-        Los parámetros que se asignan a las etiquetas, como id, se llaman atributos -->
 
-    </header> 
 
-    <div>  
-<!--Div y sectión tienen la misma función agrupar elementos, 
-se pueden encontrar div anidados, pero no es bueno-->
-        <p>En esta sección de la página está dentro de una etiqueta <strong>div</strong>, la cual es una de las etiquetas que da estructura al contenido de una página web, otras etiquetas tienen una función similar son:</p>
-        <ul>
-            <li><strong>Header.</strong></li>
-            <li><strong>Section.</strong></li>
-            <li><strong>Article.</strong></li>
-            <li><strong>Footer.</strong></li>
-        </ul>
-        <p>Además esta página también es para colocar en práctica algunas de las etiquetas que hay en HTML.</p>
-        <p>Después de este div, el contenido estará dentro de la etiqueta <strong>section</strong> que a su vez contendrá 3 <strong>articles.</strong></p>
-    </div>
 
-    <section> 
-<!--Sectión define secciones de la aplicación-->
-        <article class="texto"> 
-            <!-- Class etiqueta para asignar el mismo texto a más de un elemento 
-            Se pueden identificar los elementos de la web de manera independiente-->
+<!-- Contenido de la página -->
+    <section class="contenido">
 
+
+        <article class="article_">
             <h2>Primer Article</h2>
             <p>Se está creando el contenido del primer article dentro de section.</p>
-            <img src="img/kirara.jpg" width="500" />
+            <img src="img/kirara.jpg" />
             <p>Se puede realizar este tipo de estructura en donde cada article es de un apartado de un blog, y cada uno tiene una imagen.</p>
         </article>
 
-        <article class="texto"> 
+
+        <article class="article_">
             <h2>Segundo Article.</h2>
             <p>Además en algunas etiquetas se tienen los atributos de <strong> id y class</strong>, los cuales se utilizan para identificar y agrupar elementos HTML.</p>
-            <img src="img/Captura.PNG" width="500"/>
+            <img src="img/Captura.PNG" />
             <p>Para saber que atributo utilizar se debe saber que <strong>id</strong> debe ser <strong>único</strong> en toda la página, mientras que <strong>class</strong> puede repetirse en <strong>varios</strong> elementos. </p>
         </article>
 
-        <article class="texto">
+
+        <article class="article_">
             <h2>Tercer Article</h2>
             <p>En html header hace referencia a la cabecera de la página, mientras que footer se refiere al pie de página. </p>
-            <img src="img/20230827131929.png" width="500"/>
+            <img src="img/20230827131929.png" />
             <p>Las otras etiquetas de agrupación en html son div, section y article, la primera se utiliza para contenido genérico, la segunda agrupa elementos relacionados, y la tercera separa contenido independiente. </p>
         </article>
     </section>
-    
-        <footer>
-<!--Footer es el pie de página de la web, puede ser, información de contacto,
-Hipervinculo al inicio de la página, Info del autor, entre otros-->
-        <a href="#Titulo">Ir al titulo</a>  <!-- Se está creando un hipervínculo a la etiqueta id  -->
-        <a href="mailto:paularubio.t@gmail.com">Contacto por correo</a>
+
+
+
+
+    <footer>
+        <section class="footer">
+            <a href="#Titulo">Ir al titulo</a>  <!-- Se está creando un hipervínculo a la etiqueta id  -->
+            <a href="mailto:paularubio.t@gmail.com">Contacto por correo</a>
+        </section>
         <p>2025</p>
     </footer>
 
