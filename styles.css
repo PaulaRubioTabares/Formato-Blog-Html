@@ -49,3 +49,29 @@ header{
     border: 5px solid #40d067;
     border-radius: 80px;
 }
+
+
+
+/* Footer */
+footer{
+    margin: 0;
+    color: #fff;
+    background-color: #008b8b;
+    padding: 3rem;
+}
+footer p{
+    margin: 0;
+}
+.footer a{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0.5rem;
+}
+a:hover{
+    color: #000;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
