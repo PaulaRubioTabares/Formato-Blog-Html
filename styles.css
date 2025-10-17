@@ -32,3 +32,20 @@ header{
     cursor: pointer;
     transition: all 0.4s ease;
 }
+
+
+.article_ p{
+    color: #008c8e;
+    line-height: 1.7rem;
+}
+.article_ h2{
+    margin-bottom: 2rem;
+}
+.article_ img{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #40d067;
+    border-radius: 80px;
+}
